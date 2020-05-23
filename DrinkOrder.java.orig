@@ -1,0 +1,26 @@
+//Raja Hammad Mehmood
+// We'll be taking orders from the user and print out the drink order.
+import java.util.Scanner;
+
+public class DrinkOrder {
+  public static void main ( String[] args ) {
+    Scanner scanner = new Scanner(System.in);
+    string drink;
+    System.out.println("Do you want water juice milk coffee or tea?");
+    drink=scanner.nextLine();
+    drink=String.toUpperCase();
+    While (drink!=("JUICE") &&  drink!=("WATER") &&  drink!=("MILK") && drink!=("COFFEE") &&  drink!=("TEA")){
+    System.out.println("I don't know that beverage.Do you want water juice milk coffee or tea?");
+    drink=scanner.nextLine();
+    drink=String.toUpperCase();
+    }
+    
+    
+    
+    
+    
+    
+    
+  }
+  
+}
